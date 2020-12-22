@@ -1,0 +1,207 @@
+body{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1;
+    font-family: gotham rounded,sans-serif;
+    outline: none;
+}
+
+.vertical_alignment{
+    padding: 80px 0;
+}
+
+.horizontal_alignment{
+    width: 1056px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.content_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing_section{
+    background-color: #333;
+}
+
+.sub_section_spacing{
+    margin-bottom: 35px;
+}
+
+.landing_section .vertical_alignment{
+    background-color: transparent;
+    background-image: url("picture_of_vincent.jpg");
+    background-attachment: fixed;
+    padding-top: 424px;
+    padding-bottom: 424px;
+}
+
+.text_background{
+    background-color: rgba(0,0,0,.8);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.landing_section .subtitle{
+    opacity: 1;
+    text-shadow: 0 1px 2px rgba(0,0,0,.2);
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 175%;
+    font-family: arapey,sans-serif;
+    font-style: italic;
+    line-height: 1.45;
+    margin-bottom: 10px;
+}
+
+.landing_section .title{
+    list-style: none;
+    text-shadow: 0 1px 2px rgba(0,0,0,.2);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style: normal;
+    font-size: 375%;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.projects_section .title{
+    list-style: none;
+    text-align: center;
+    color: #333;
+    text-transform: none !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style: normal;
+    font-size: 225%;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.project_content_container_ltr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project_content_container_rtl{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.thumbnail_container{
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 302px;
+}
+
+.thumbnail{
+    width: 302px;
+    border-radius: 25px;
+}
+
+.text_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    width: 566px;
+}
+
+.text_container .title{
+    font-size: 150%;
+    font-family: inherit;
+    text-decoration: none;
+    color: #37c;
+    line-height: 1.45;
+
+    margin-bottom: 5px;
+}
+
+.text_container .subtitle{
+    color: #50555c;
+    font-style: normal;
+    font-size: 100%;
+    font-family: roboto, helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.45;
+
+    margin-bottom: 20px;
+}
+
+.text_container .content{
+    color: #50555c;
+    font-size: 100%;
+    line-height: 1.45;
+}
+
+.contact_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: #eee;
+}
+
+.contact_section .title{
+    color: #333;
+    font-size: 225%;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.contact_section .subtitle{
+    color: #678;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-family: inherit;
+    line-height: 1.45;
+    font-size: 130%;
+}
+
+.icons_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    height: 110px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
