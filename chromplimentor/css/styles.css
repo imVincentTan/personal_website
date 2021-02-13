@@ -1,0 +1,27 @@
+html {
+    
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 54px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0%;
+    background-position: center;
+}
+
+.text-container{
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.display-text { 
+    max-width: 1056px;
+    color: ivory;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Chromplimentor",
+    "version": "1.0",
+    "description": "An extension that shows you a cute dog and compliments you!",
+    "manifest_version": 3,
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    }
+    
+        
+    
+}
