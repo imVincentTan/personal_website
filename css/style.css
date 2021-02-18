@@ -11,6 +11,14 @@ body{
     outline: none;
 }
 
+a:link, a:active, a:visited, a:focus{
+    color: rgba(51, 119, 204, 1);
+}
+
+a:hover{
+    color: rgba(61, 143, 245, 1);
+}
+
 .vertical_alignment{
     padding: 80px 0;
 }
@@ -91,11 +99,25 @@ body{
     line-height: 1.2;
 }
 
+.about_section{
+    background-color: rgba(10,25,47,1);
+}
+
+.about_section .text_container .title{
+    color: rgba(230,241,255, 1);
+
+}
+
+.about_section .text_container .content{
+    color: rgba(136,146,176, 1);
+    /* text-shadow: 2px 2px ; */
+}
+
 .projects_section .title{
     list-style: none;
     text-align: center;
     color: #333;
-    text-transform: none !important;
+    text-transform: none;
     margin: 0;
     padding: 0;
     border: 0;
@@ -208,6 +230,7 @@ body{
 }
 
 .contact_section .subtitle{
+    text-align: center;
     color: #678;
     margin: 0;
     padding: 0;
