@@ -19,6 +19,10 @@ a:hover{
     color: rgba(61, 143, 245, 1);
 }
 
+.title{
+    font-family: 'Josefin Sans', gotham rounded, sans-serif;
+}
+
 .vertical_alignment{
     padding: 80px 0;
 }
@@ -51,6 +55,18 @@ a:hover{
     background-attachment: fixed;
     padding-top: 424px;
     padding-bottom: 424px;
+}
+
+.default_animation{
+    opacity: 0;
+    transform: translateY(-1em);
+    transition: transform 0.5s .1s cubic-bezier(0, 0, 1, 1), opacity 0.5s .1s ease-out;
+}
+
+.default_animation.is-visible{
+    transform: translateY(0em);
+    opacity: 1;
+
 }
 
 .text_background{
@@ -94,7 +110,6 @@ a:hover{
     border: 0;
     font-style: normal;
     font-size: 375%;
-    font-family: inherit;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -109,7 +124,7 @@ a:hover{
 }
 
 .about_section .text_container .content{
-    color: rgba(136,146,176, 1);
+    color: rgba(159,169,199, 1);
     /* text-shadow: 2px 2px ; */
 }
 
@@ -123,7 +138,6 @@ a:hover{
     border: 0;
     font-style: normal;
     font-size: 225%;
-    font-family: inherit;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -212,6 +226,40 @@ a:hover{
     line-height: 1.45;
 }
 
+.system_section{
+    background-color: rgba(232, 89, 94, 1);
+}
+
+.system_section .sub_section_spacing{
+    margin: 0;
+}
+
+.system_section .text_container{
+    align-items: center;
+    text-align: center
+}
+
+.system_section .text_container .title{
+    color: rgba(230,241,255, 1);
+    text-decoration: none;
+    
+    font-size: 32px;
+    font-family: 'Josefin Sans', gotham rounded, sans-serif;
+}
+
+.system_section .text_container a{
+    color: rgba(230,241,255, 1);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', gotham rounded, sans-serif;
+}
+
+.system_section .text_container a:hover{
+    text-decoration: underline;
+}
+
+
+
 .contact_section{
     display: flex;
     flex-direction: column;
@@ -224,7 +272,6 @@ a:hover{
 .contact_section .title{
     color: #333;
     font-size: 225%;
-    font-family: inherit;
     font-weight: 700;
     line-height: 1.2;
 }
