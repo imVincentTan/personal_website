@@ -12,8 +12,6 @@ sectionToNavbar = {"landing":"navbar-landing","about":"navbar-about","projects":
 var sectionIds = ["#landing","#about","#projects","#system","#contact"];
 var sections = document.querySelectorAll(sectionIds);
 
-alert('starto');
-
 function loop() {
     // animate
     elementsToShow.forEach(function (element) {
